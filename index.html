@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Conversión de Moneda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Calculadora de Conversión de Moneda</h1>
+    <div class="converter">
+        <input type="number" id="amount" placeholder="Ingrese la cantidad">
+        <select id="fromCurrency"></select>
+        <span> a </span>
+        <select id="toCurrency"></select>
+        <button id="convertBtn">Convertir</button>
+    </div>
+    <div class="result">
+        <p>Resultado: <span id="resultAmount"></span></p>
+    </div>
+
+    <h2>Referencia de Monedas</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Sigla</th>
+                <th>Nombre Completo</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>AUD</td>
+                <td>Dólar Australiano</td>
+            </tr>
+            <tr>
+                <td>BGN</td>
+                <td>Lev Búlgaro</td>
+            </tr>
+            <tr>
+                <td>BRL</td>
+                <td>Real Brasileño</td>
+            </tr>
+            <tr>
+                <td>CAD</td>
+                <td>Dólar Canadiense</td>
+            </tr>
+            <tr>
+                <td>CHF</td>
+                <td>Franco Suizo</td>
+            </tr>
+            <tr>
+                <td>CNY</td>
+                <td>Yuan Chino</td>
+            </tr>
+            <tr>
+                <td>CZK</td>
+                <td>Corona Checa</td>
+            </tr>
+            <tr>
+                <td>DKK</td>
+                <td>Corona Danesa</td>
+            </tr>
+            <tr>
+                <td>EUR</td>
+                <td>Euro</td>
+            </tr>
+            <tr>
+                <td>GBP</td>
+                <td>Libra Esterlina (Reino Unido)</td>
+            </tr>
+            <tr>
+                <td>HKD</td>
+                <td>Dólar de Hong Kong</td>
+            </tr>
+            <tr>
+                <td>HUF</td>
+                <td>Florín Húngaro</td>
+            </tr>
+            <tr>
+                <td>IDR</td>
+                <td>Rupia Indonesia</td>
+            </tr>
+            <tr>
+                <td>ILS</td>
+                <td>Nuevo Shekel Israelí</td>
+            </tr>
+            <tr>
+                <td>INR</td>
+                <td>Rupia India</td>
+            </tr>
+            <tr>
+                <td>ISK</td>
+                <td>Corona Islandesa</td>
+            </tr>
+            <tr>
+                <td>JPY</td>
+                <td>Yen Japonés</td>
+            </tr>
+            <tr>
+                <td>KRW</td>
+                <td>Won Surcoreano</td>
+            </tr>
+            <tr>
+                <td>MXN</td>
+                <td>Peso Mexicano</td>
+            </tr>
+            <tr>
+                <td>MYR</td>
+                <td>Ringgit Malasio</td>
+            </tr>
+            <tr>
+                <td>NOK</td>
+                <td>Corona Noruega</td>
+            </tr>
+            <tr>
+                <td>NZD</td>
+                <td>Dólar Neozelandés</td>
+            </tr>
+            <tr>
+                <td>PHP</td>
+                <td>Peso Filipino</td>
+            </tr>
+            <tr>
+                <td>PLN</td>
+                <td>Zloty Polaco</td>
+            </tr>
+            <tr>
+                <td>RON</td>
+                <td>Leu Rumano</td>
+            </tr>
+            <tr>
+                <td>SEK</td>
+                <td>Corona Sueca</td>
+            </tr>
+            <tr>
+                <td>SGD</td>
+                <td>Dólar de Singapur</td>
+            </tr>
+            <tr>
+                <td>THB</td>
+                <td>Baht Tailandés</td>
+            </tr>
+            <tr>
+                <td>TRY</td>
+                <td>Lira Turca</td>
+            </tr>
+            <tr>
+                <td>USD</td>
+                <td>Dólar Estadounidense</td>
+            </tr>
+            <tr>
+                <td>ZAR</td>
+                <td>Rand Sudafricano</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>

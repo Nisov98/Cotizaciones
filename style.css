@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #525252;
+    background-image: url('images/dolar.jpg'), url('images/2f535de4-d5d0-415b-abc0-b51434890c1f.jpg'), url('images/euro.jpg'), url('images/euro2.jpg');
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    background-position: left top, right top, left bottom, right bottom;
+    background-attachment: fixed, fixed, fixed, fixed;
+    background-size: auto 51%, auto 51%, auto 51%, auto 51%;
+    min-height: 100vh;
+}
+
+h1 {
+    margin-top: 20px;
+    color: #1eb837;
+    text-decoration: underline; 
+}
+
+.converter {
+    margin: 20px auto; 
+    border-radius: 5px;
+    padding: 20px; 
+    background-color: #727171;
+    width: 47%; 
+}
+
+
+select, input, button {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.result {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+h2 {
+    margin-top: 30px;
+    color: #1eb837;
+    text-decoration: underline; 
+}
+
+table {
+    width: 51%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+th, td {
+    border: 1px solid #000000;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #ffffff;
+    color: #1eb837;
+    text-decoration: underline;
+}
